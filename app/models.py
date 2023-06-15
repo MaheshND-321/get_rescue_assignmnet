@@ -10,7 +10,23 @@ class Issue(models.Model):
     status = models.CharField(max_length=20)
 
 
-class Agent(models.Model):
+class Agent1(models.Model):
+    agent_id = models.AutoField(primary_key=True)
+    queue = models.CharField(max_length=100)
+
+class Agent2(models.Model):
+    agent_id = models.AutoField(primary_key=True)
+    queue = models.CharField(max_length=100)
+
+class Agent3(models.Model):
+    agent_id = models.AutoField(primary_key=True)
+    queue = models.CharField(max_length=100)
+
+class Agent4(models.Model):
+    agent_id = models.AutoField(primary_key=True)
+    queue = models.CharField(max_length=100)
+
+class Agent5(models.Model):
     agent_id = models.AutoField(primary_key=True)
     queue = models.CharField(max_length=100)
 
