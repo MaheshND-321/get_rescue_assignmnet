@@ -1,0 +1,38 @@
+h1{
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+label {
+	font-family: Arial, sans-serif;
+}
+
+form {
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+label, input {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="datetime-local"] {
+	padding: 5px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
