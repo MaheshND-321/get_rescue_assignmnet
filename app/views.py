@@ -20,7 +20,7 @@ def index(request):
         usr_id="usr_id"+str(i)
         status='Inque'
         j=i%5
-    
+        j=j+1
         issue_table = Issue(issue_id=iss_id,user_id=usr_id,user_name=user_name,location=location,problem=problem,time=time,status=status)
         issue_table.save()
         match  j:
