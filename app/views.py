@@ -1,7 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from .models import Issue, Agent1,Agent2,Agent3,Agent4,Agent5, Mechanic
-import random
 from django.contrib import messages
 
 
